@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommendations div {
+    text-align: center;
+}
+
+.recommendations img {
+    width: 200px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+}
